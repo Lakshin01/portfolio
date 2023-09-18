@@ -1,16 +1,16 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://lakshin.netlify.app"
 languageCode: "en-us"
-title: "Portfolio"
+title: "Lakshin Portfolio"
 theme: hugo-profile
 
 outputs:
   home:
     - "HTML"
-    - "RSS"
+    - "CSS"
     - "JSON"
   page:
     - "HTML"
-    - "RSS"
+    - "CSS"
 
 Paginate: 3
 enableRobotsTXT: true
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Lakshin Portfolio"
+  description: About myself
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -134,12 +134,12 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/Lakshin01
         - icon: fab fa-twitter
-          url: https://example.com
+          url: https://x.com/LakshinLk
       customIcons:
         - icon: /fav.png
-          url: "https://example.com"
+          url: "https://lakshin.netlify.com"
 
   # About
   about:
@@ -154,24 +154,24 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "C++, Python, Bash"
+        - "HTML/CSS/Sass"
+        - "JavaScript - React, Angular, Express,"
+        - "Familiar with docker, AWS(EC2, Lambda, Sagemaker, API Gateway, S3, ELB, VPC, EC2 AutoScaling, DynamoDB), GCP(Compute, IAM, VPS), HyperLedger Fabric"
+        - "Have used C, Java, GoLang, Rust, MongoDB, PostegreSQL"
+        - ""
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Junior Full Stack Developer"
+        company: "AIC IIIT Kottayam"
+        companyUrl: "http://icentre.iiitkottayam.ac.in/"
+        date: "Aug 2019 - March 2021"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
